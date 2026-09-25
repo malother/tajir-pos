@@ -147,7 +147,7 @@ class _ShopDetailsPageState extends State<ShopDetailsPage> {
                     const InputLabel(text: 'Phone Number'),
                     _buildTextField(
                       controller: _phoneController,
-                      hint: '+91 7010674588',
+                      hint: '0550 00 00 00',
                       keyboardType: TextInputType.phone,
                       validator: AppValidators.required('Required'),
                     ),
@@ -155,7 +155,7 @@ class _ShopDetailsPageState extends State<ShopDetailsPage> {
                     const InputLabel(text: 'UPI ID'),
                     _buildTextField(
                       controller: _upiController,
-                      hint: 'dineshsowndar@oksbi',
+                      hint: 'Optional',
                     ),
                     const SizedBox(height: 15),
                     Row(

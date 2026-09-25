@@ -418,7 +418,7 @@ class _HomePageState extends State<HomePage> {
             ),
             alignment: Alignment.center,
             child:
-                Icon(Icons.shopping_basket, size: 40, color: Colors.grey[300]),
+                Icon(Icons.shopping_bag, size: 40, color: Colors.grey[300]),
           ),
           const SizedBox(height: 16),
           const Text('List is empty',
